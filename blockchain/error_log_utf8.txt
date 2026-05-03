@@ -1,0 +1,118 @@
+﻿
+WARNING: You are using Node.js 20.12.1 which is not supported by Hardhat.
+Please upgrade to 22.10.0 or a later LTS version (even major version number)
+
+
+npx : An unexpected error occurred:
+At line:1 char:1
++ npx hardhat compile *> error_log.txt
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecif 
+   ied: (An unexpected error occurred:  
+  :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCom 
+   mandError
+ 
+
+TypeError [ERR_INVALID_ARG_VALUE]: The 
+argument 'format' must be one of: 
+'reset', 'bold', 'dim', 'italic', 
+'underline', 'blink', 'inverse', 
+'hidden', 'strikethrough', 
+'doubleunderline', 'black', 'red', 
+'green', 'yellow', 'blue', 'magenta', 
+'cyan', 'white', 'bgBlack', 'bgRed', 
+'bgGreen', 'bgYellow', 'bgBlue', 
+'bgMagenta', 'bgCyan', 'bgWhite', 
+'framed', 'overlined', 'gray', 
+'redBright', 'greenBright', 
+'yellowBright', 'blueBright', 
+'magentaBright', 'cyanBright', 
+'whiteBright', 'bgGray', 'bgRedBright', 
+'bgGreenBright', 'bgYellowBright', 
+'bgBlueBright', 'bgMagentaBright', 
+'bgCyanBright', 'bgWhiteBright'. 
+Received [ 'red', 'bold' ]
+    at Object.styleText 
+(node:util:210:5)
+    at style (C:\Users\LENOVO\Desktop\AI
+FB\CryptoAI\blockchain\node_modules\@nom
+icfoundation\hardhat-toolbox\index.js:12
+:17)
+    at Object.<anonymous> (C:\Users\LENO
+VO\Desktop\AIFB\CryptoAI\blockchain\node
+_modules\@nomicfoundation\hardhat-toolbo
+x\index.js:21:3)
+    at Module._compile (node:internal/mo
+dules/cjs/loader:1369:14)
+    at Module._extensions..js (node:inte
+rnal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/module
+s/cjs/loader:1206:32)
+    at Module._load (node:internal/modul
+es/cjs/loader:1022:12)
+    at cjsLoader (node:internal/modules/
+esm/translators:366:17)
+    at ModuleWrap.<anonymous> (node:inte
+rnal/modules/esm/translators:315:7)
+    at ModuleJob.run (node:internal/modu
+les/esm/module_job:222:25) {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+
+If you think this is a bug in Hardhat, 
+please report it here: 
+https://hardhat.org/report-bug
+node:internal/process/promises:289
+            
+triggerUncaughtException(err, true /* 
+fromPromise */);
+            ^
+
+TypeError [ERR_INVALID_ARG_VALUE]: The 
+argument 'format' must be one of: 
+'reset', 'bold', 'dim', 'italic', 
+'underline', 'blink', 'inverse', 
+'hidden', 'strikethrough', 
+'doubleunderline', 'black', 'red', 
+'green', 'yellow', 'blue', 'magenta', 
+'cyan', 'white', 'bgBlack', 'bgRed', 
+'bgGreen', 'bgYellow', 'bgBlue', 
+'bgMagenta', 'bgCyan', 'bgWhite', 
+'framed', 'overlined', 'gray', 
+'redBright', 'greenBright', 
+'yellowBright', 'blueBright', 
+'magentaBright', 'cyanBright', 
+'whiteBright', 'bgGray', 'bgRedBright', 
+'bgGreenBright', 'bgYellowBright', 
+'bgBlueBright', 'bgMagentaBright', 
+'bgCyanBright', 'bgWhiteBright'. 
+Received [ 'red', 'bold' ]
+    at Object.styleText 
+(node:util:210:5)
+    at style (C:\Users\LENOVO\Desktop\AI
+FB\CryptoAI\blockchain\node_modules\@nom
+icfoundation\hardhat-toolbox\index.js:12
+:17)
+    at Object.<anonymous> (C:\Users\LENO
+VO\Desktop\AIFB\CryptoAI\blockchain\node
+_modules\@nomicfoundation\hardhat-toolbo
+x\index.js:21:3)
+    at Module._compile (node:internal/mo
+dules/cjs/loader:1369:14)
+    at Module._extensions..js (node:inte
+rnal/modules/cjs/loader:1427:10)
+    at Module.load (node:internal/module
+s/cjs/loader:1206:32)
+    at Module._load (node:internal/modul
+es/cjs/loader:1022:12)
+    at cjsLoader (node:internal/modules/
+esm/translators:366:17)
+    at ModuleWrap.<anonymous> (node:inte
+rnal/modules/esm/translators:315:7)
+    at ModuleJob.run (node:internal/modu
+les/esm/module_job:222:25) {
+  code: 'ERR_INVALID_ARG_VALUE'
+}
+
+Node.js v20.12.1
